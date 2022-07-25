@@ -1,0 +1,198 @@
+
+.hh{
+    color: hsl(260, 8%, 14%);
+}
+
+/* section{
+    background-color: hsl(0, 0%, 75%);
+} */
+
+main{
+    background-color: hsl(0, 4%, 91%);
+}
+
+section.advanced {
+    background-color: hsl(0, 4%, 91%);;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 15px;
+}
+
+.pe {
+    color: hsl(257, 7%, 63%);;
+    font-size: 16px;
+}
+
+section.box{
+    display: flex;
+    margin: 20px  auto 0;
+}
+
+.con{
+    text-align: center;
+    padding:  40px 20px 20px;
+    margin: 20px 20px ;
+    background-color: white;
+    border-radius: 15px;
+}
+
+main{
+    
+    position: relative;
+}
+
+section article {
+    text-align: center;
+    margin: 20px 10px 30px;
+    padding: 20px 10px 0;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    left: 15%;
+    top: 8px;
+    bottom: 5px;
+    right: 0px;
+    background-color: hsl(257, 27%, 26%) ;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#con-2{
+    margin-top: 60px;
+}
+
+#con-3{
+    margin-top: 120px;
+}
+
+.rod{
+    background-color: hsl(180, 66%, 49%);
+    width: 70vw;
+    height: 10px;
+    position: absolute;
+    top: 420px;
+    left: 150px
+}
+
+@media screen and (max-width: 930px){
+    section.box {
+        padding-bottom: 50px;
+        margin: 0 ;
+    }
+    .con {
+            text-align: center;
+            padding: 20px 10px 10px;
+            margin: 5px 5px;
+            background-color: white;
+            border-radius: 15px;
+        }
+    section article {
+        text-align: center;
+        margin: 10px 5px 10px;
+        padding: 20px 10px 0;
+        position: relative;
+    }
+
+    .icon {
+        position: absolute;
+        left: 15%;
+        top: 10px;
+        bottom: 5px;
+        right: 0px;
+        background-color: hsl(257, 27%, 26%);
+        padding: 12px;
+        border-radius: 50%;
+    }
+}
+
+
+@media screen and (max-width: 630px){
+    section.box {
+        display: block;
+    }
+    .con {
+        text-align: center;
+        padding: 40px 20px 20px;
+        margin: 10px 10px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    section article {
+        text-align: center;
+        margin: 0;
+        padding: 20px 10px 0;
+        position: relative;
+    }
+    
+    .icon {
+        position: absolute;
+        left: center;
+        top: 8px;
+        bottom: 5px;
+        right: 0px;
+        background-color: hsl(257, 27%, 26%);
+        padding: 15px;
+        border-radius: 50%;
+    }
+
+    #con-2 {
+        margin-top: 0px;
+    }
+    
+    #con-3 {
+        margin-top: 0px;
+    }
+    .rod{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 360px){}
+
+@media screen and (max-width: 300px) {
+    .con {
+        text-align: center;
+        padding: 20px 10px 10px;
+        margin: 10px 5px;
+        background-color: white;
+        border-radius: 15px;
+    }
+        
+    section article {
+        text-align: center;
+        margin: 5px 5px 10px;
+        padding: 10px 5px 0;
+        position: relative;
+    }
+        
+    .icon {
+        position: absolute;
+        left: 15%;
+        top: 8px;
+        bottom: 5px;
+        right: 0px;
+        background-color: hsl(257, 27%, 26%);
+        padding: 5px;
+        border-radius: 50%;
+        background-image: url();
+    }
+    section.box{
+        margin: 10px;
+    }
+}
+.tee{
+
+    color: hsl(180, 66%, 49%); 
+    color: hsl(257, 27%, 26%); 
+    color: hsl(0, 87%, 67%); 
+    color: hsl(0, 0%, 75%);
+    color: hsl(257, 7%, 63%) ;
+    color: hsl(255, 11%, 22%);
+    color: hsl(260, 8%, 14%);
+}

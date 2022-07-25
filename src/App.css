@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+a button{
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mid{
+    padding: 50px;
+    background-color: hsl(255, 11%, 22%);
+    background-position: cover;
+    /* background-repeat: no-repeat; */
+    margin: 50px 40px 0;
+    border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div .two{
+    background: linear-gradient(to bottom,white 00px, hsl(0, 4%, 91%) 100px, hsl(0, 4%, 91%));
+    padding: 0 0 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+form input {
+    padding: 20px 25vw;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::placeholder{
+    text-align: center;
+}
+
+
+form button{
+    padding: 20px 3vw;
+    color: white;
+    font-size: 18px;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 930px){
+    form input {
+        padding: 20px 17vw;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    form{
+        flex-direction: column;
+    }
+    form input {
+        padding: 20px ;
+        margin: 0 0  10px 0;
+    }
+
+    form button {
+        padding: 20px ;    
+    }
 }

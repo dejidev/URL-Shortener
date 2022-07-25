@@ -1,0 +1,157 @@
+body{
+    font-size: 18px;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    color: hsl(0, 0%, 75%);
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul p{
+    padding-right: 1rem;
+}
+
+.links{
+    margin-right: 10px;
+}
+
+.toggle-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: hsl(0, 0%, 75%);
+}
+
+hr{
+    background-color: hsl(0, 0%, 75%);
+    margin: 0 20%;
+}
+
+.login{
+    margin-right: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.signup{
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 630px){
+
+    .links-container {
+        height: auto !important;
+   }
+
+}
+@media screen and (max-width: 630px){
+
+    nav section {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links-container {
+        display: block;
+        width: auto;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s linear;  
+        margin: 10px auto; 
+        background-color: hsl(257, 27%, 26%);
+        color:  white;
+        border-radius: 10px;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature{
+        margin-top: 15px;
+    }
+    .show-container {
+        height: 17rem;
+    }
+
+    nav{
+        display: block;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    ul{
+        display: grid;
+        grid-template-rows: 1fr;
+        margin: 0 ;
+        padding: 0;
+    }
+
+    ul p{
+        align-self: center;
+        margin : 10px 0 0;
+    }
+
+    ul p {
+        padding-right: 0rem;
+    }
+    ul .nav-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .login .signup {
+        margin: 0px;
+    }
+
+    p.login{
+        margin: 0;
+    }
+
+    p.signup{
+        margin: 0 30%;
+        padding: 10px  30px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+
+    .login .signup{
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+    p.signup {
+        margin: 0 10%;
+    }
+}
