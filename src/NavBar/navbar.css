@@ -60,6 +60,10 @@ hr{
     border-radius: 10px;
 }
 
+.signup:hover{
+    background-color: hsl(260, 8%, 14%);
+}
+
 @media screen and (min-width: 630px){
 
     .links-container {

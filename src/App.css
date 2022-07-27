@@ -23,7 +23,7 @@ form{
 }
 
 form input {
-    padding: 20px 25vw;
+    padding: 20px 23vw;
     margin-right: 10px;
     border-radius: 10px;
     font-size: 18px;
@@ -35,12 +35,20 @@ form input {
 
 
 form button{
-    padding: 20px 3vw;
+    padding: 20px 2vw;
     color: white;
     font-size: 18px;
     background-color: hsl(180, 66%, 49%);
     border: none;
     border-radius: 10px;
+}
+
+span{
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(260, 8%, 14%);
 }
 
 @media screen and (max-width: 930px){
@@ -61,4 +69,56 @@ form button{
     form button {
         padding: 20px ;    
     }
+
+    .short{
+        margin: 10px 10px;
+        padding: 0;
+        flex-direction: column;
+        margin: auto;
+    }
+    p.url{
+        margin: auto;
+    }
+    section{
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.short{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.middle{
+    margin:  10px auto;
+    background-color: hsl(260, 8%, 14%);
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.short section{
+    display: flex;
+    margin-left: 50px;
+}
+
+.short button{
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.url{
+    overflow: hidden;
 }
