@@ -60,6 +60,11 @@ div.social{
 
 .attribution{
     text-align: center;
+    font-size: small;
+}
+
+.attribution p{
+    margin: 5px;
 }
 
 
